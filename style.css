@@ -32,6 +32,12 @@ h3 {
 h1 {
   font-size: 3em;
 }
+
+.authors img {
+  height: 150px;
+  border-radius: 30%;
+}
+
 .header__icon {
   display: none; /* bude vidět na široké obrazovce */
 }
