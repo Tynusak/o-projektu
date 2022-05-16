@@ -36,6 +36,7 @@ h1 {
   display: none; /* bude vidět na široké obrazovce */
 }
 .project {
+  color: rgba(99, 51, 2, 0.986);
   background-color: bisque;
   display: flex;
   flex-wrap: wrap;
@@ -43,7 +44,7 @@ h1 {
 footer {
   color: whitesmoke;
   background-color: rgba(99, 51, 2, 0.986);
-  height: 20px;
+  height: 30px;
   padding: 0px 5px;
   font-size: 0.7em;
   font-style: italic;
