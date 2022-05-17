@@ -32,20 +32,74 @@ h3 {
 h1 {
   font-size: 3em;
 }
+h3 {
+  width: 100%;
+}
+
+a {
+  width: 50%;
+  height: 50px;
+  margin-top: 70px;
+  color: whitesmoke;
+  text-align: center;
+  background-color: rgba(99, 51, 2, 0.986);
+  text-decoration: none;
+  padding: 20px;
+}
 
 .authors img {
   height: 150px;
-  border-radius: 30%;
+  border-radius: 50%;
 }
 
 .header__icon {
   display: none; /* bude vidět na široké obrazovce */
 }
-.project {
+main {
   color: rgba(99, 51, 2, 0.986);
   background-color: bisque;
   display: flex;
   flex-wrap: wrap;
+}
+section {
+  width: 100%;
+  padding: 0% 5%;
+}
+.mainInfo {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.mainInfo__intro,
+.mainInfo__encyclopedia,
+.mainInfo__game,
+.mainInfo__lastNote {
+  width: 100%;
+}
+.authors {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.authors__intro,
+.authors__jarka,
+.authors__tyna {
+  width: 100%;
+}
+.authors__jarka,
+.authors__tyna {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.authors__jarka > div,
+.authors__tyna > div {
+  width: 100%;
+  text-align: center;
+  padding: 20px 0px;
 }
 footer {
   color: whitesmoke;
