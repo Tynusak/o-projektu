@@ -48,12 +48,12 @@ h3 {
 
 a {
   width: 50%;
-  height: 30px;
+  height: 25px;
   color: whitesmoke;
   text-align: center;
   background-color: rgba(99, 51, 2, 0.986);
   text-decoration: none;
-  padding: 20px;
+  padding: 15px;
   border-radius: 5px;
 }
 a:hover {
@@ -137,6 +137,12 @@ section {
 .aboutme__text {
   width: 100%;
   padding: 10px 6%;
+}
+.aboutme__toMainPage {
+  height: 50px;
+  width: 100%;
+  margin-top: 5%;
+  text-align: center;
 }
 
 footer {
